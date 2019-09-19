@@ -1,0 +1,125 @@
+body {
+    font-family: 'Viga', sans-serif;
+    background: url('../img/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#particles-js {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+/* header */
+header {
+    margin-top: 25px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 71.8%;
+    font-family: viga;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+
+/* Kuis Container */
+.quizContainer {
+    width: 75%;
+    margin: auto;
+    padding-top: 5px;
+    text-align: center;
+}
+
+
+/* Button */
+.nextButton {
+    background-color:  #292b2e;
+    width: 130px;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+
+li {
+    font-size: 1.3em;
+    list-style: upper-alpha;
+    text-align: left;
+    margin-left: 16%;
+    color: white;
+}
+
+input[type=radio] {
+    opacity: 0;
+}
+
+input[type=radio]+label {
+    color: white;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+input[type=radio]:checked+label {
+    transition: .2s ease-in-out;
+}
+
+.question {
+    font-size: 1.3em;
+    width: 90%;
+    margin-left: 7%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+    text-align: left;
+    color: white;
+}
+
+.quizMessage {
+    background-color: #292b2e;
+    border-radius: 6px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    color:  white;
+}
+
+.result {
+    width: 50%;
+    margin-top: 50px;
+    height: auto;
+    font-size: 25px;
+    border-radius: 6px;
+    background-color: #292b2e;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 25px;
+    color: white
+}
+
+.warning {
+    background-color: #292b2e;
+    padding-top: 7px;
+    padding-bottom: 1px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black; 
+    font-size: 14px;
+}
+
+/* Footer */
+
+
+.copyright {
+    margin-top: 73px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: viga;
+}
+
+.copyright:hover {
+    color:  #292b2e;
+}
