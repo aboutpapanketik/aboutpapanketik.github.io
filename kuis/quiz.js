@@ -547,7 +547,7 @@ $(document).ready(function () {
                     displayCurrentQuestion();
                 } else {
                     displayScore();
-                    $(document).find(".nextButton").text("Kembali Ke Home");
+                    $(document).find(".nextButton").text("Kembali");
                     quizOver = true;
                 }
             }
