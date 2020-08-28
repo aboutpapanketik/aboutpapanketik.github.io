@@ -1,29 +1,31 @@
-body{display:block;
-  -khtml-user-select:none;
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  -o-user-select:none;
-  user-select:none;
-  unselectable:on;}
+body {
+  display: block;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  unselectable: on;
+}
 
-  .back{
-   padding: 30px;
-   padding-top: 35px;
-   padding-left: 50px;
-    color: white;
-    border-bottom: none;
-  }
+.back {
+  padding: 30px;
+  padding-top: 35px;
+  padding-left: 50px;
+  color: white;
+  border-bottom: none;
+}
 
-  .back a {
-    padding-left: 150px;
-    color: white;
-    border-inline: none !important;
-  }
+.back a {
+  padding-left: 150px;
+  color: white;
+  border-inline: none !important;
+}
 
-  .back a:hover {
-    text-decoration: none;
-  }
+.back a:hover {
+  text-decoration: none;
+}
 
 * {
   margin: 0px;
@@ -47,9 +49,17 @@ body{display:block;
 }
 
 @keyframes BackgroundGradient {
-  0% {background-position: 0% 50%;}
-  50% {background-position: 100% 50%;}
-  100% {background-position: 0% 50%;}
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 body::before {
@@ -183,17 +193,15 @@ p {
   text-transform: uppercase;
   border-radius: 40px;
   width: 30%;
-  background-color: white !important;
+  background-color: white;
   color: black;
-  border: none !important;
- 
+  margin-left: 80%;
 }
 
-.tombol:hover {
-  background-color: black !important;
-  color: white;
-  box-shadow: #fff;
-  box-shadow: 0px 0px 10px white;
+.tombol_ket {
+  background-color: transparent;
+  border: none;
+
 }
 
 footer {
@@ -322,7 +330,7 @@ footer {
   #startGameBtn,
   #stopGameBtn {
     font-size: 2em;
-    
+
   }
 
   .icon-background {
